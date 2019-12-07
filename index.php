@@ -41,7 +41,7 @@
 <fieldset>
 <?php
 		
-		label("Employers Name");
+		label("Employer's Name");
 		input("text", "Employer", "employer");
 		label("Position");
 		input("text", "Position", "position");
@@ -55,7 +55,7 @@
 ?>
 <br>
 
-      <h4>Number of Years Worked</h4>			
+      <?php label("Number of Years Worked"); ?>			
       <select name="years">
         <option value ="1_5">1 year or less</option>
         <option value ="2_5">2 to 5 years</option>
@@ -64,6 +64,11 @@
       </select>
       <br />
 </fieldset>
+			
+			<input type="submit" value = "Submit" />
+
+			<button type="button">Add Another Job</button>
+
 
 	</body>
 </html>
