@@ -4,3 +4,12 @@ h1 {
 		color: black;
 }
 
+ h4 {
+     text-align: center;
+     color: black;
+ }
+
+div.a {
+	line-height: 50px;
+}
+
